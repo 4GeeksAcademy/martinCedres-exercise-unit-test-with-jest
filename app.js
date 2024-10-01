@@ -12,7 +12,7 @@ const fromEuroToDollar = function(valueInEuro) {
 }
 
 const fromDollarToYen =  function(valueInDollar) {
-    let valueInYen =  valueInDollar * 146.9;
+    let valueInYen =  valueInDollar * (1 / 1.07) * 156.5;
     return valueInYen;
     }
   
